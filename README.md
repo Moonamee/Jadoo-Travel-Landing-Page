@@ -12,7 +12,8 @@ When you click on the link button, the video appears in a separate modal window.
 Added site animation when scrolling. 
 Added a slider with user comments. 
 Social icons with animation have been introduced into the footer field.
-----------------------------------------------------------------------------------
+
+
 #UA Цільова сторінка туристичного агентства
 
 → Жанр: #LandingPage 
