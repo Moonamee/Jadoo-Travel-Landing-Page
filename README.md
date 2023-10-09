@@ -1,7 +1,7 @@
 # Jadoo-Travel-Landing-Page
 
 #EN Travel agency landing page
-
+-------------------------------------------------------------------------
 → Genre: #LandingPage 
 → Language: #EN 
 → Adaptive: No
@@ -13,9 +13,8 @@ Added site animation when scrolling.
 Added a slider with user comments. 
 Social icons with animation have been introduced into the footer field.
 
-
 #UA Цільова сторінка туристичного агентства
-
+-------------------------------------------------------------------------
 → Жанр: #LandingPage 
 → Мова: #EN 
 → Адаптивний: Ні
