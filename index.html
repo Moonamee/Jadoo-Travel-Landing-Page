@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Video -->
+    <link rel="stylesheet" href="css/videotube.min.css">
+    <!-- Social -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
+    <title>Jadoo</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__container header__fixed">
+                <div class="header__logo" data-aos="flip-up"
+                                          data-aos-offset="50"
+                                          data-aos-duration="1000">
+                    <a href="index.html"><img src="img/header_logo.svg" alt="Logo"></a>
+                </div>
+                <nav class="header__menu" >
+                    <ul class="header__menu__list">
+                        <li><a href="#">Desitnations</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                    <ul class="header__menu__list">
+                        <li class="signup login"><a href="#">Login</a></li>
+                        <li class="signup"><a href="#">Sign up</a></li>
+                    </ul>
+                    <select name="lenguage" class="header__lenguage">
+                        <option value="English">EN</option>
+                        <option value="Ukraine">UA</option>
+                    </select>
+                </nav>
+            </div>
+            <div class="header__travel__info">
+                <div class="header__travel__text">
+                    <span class="header__travel__slogan">
+                        Best Destinations around the world
+                    </span>
+                    <h1 class="header__travel__presents">
+                        Travel, enjoy and live a new and full life
+                    </h1>
+                    <span class="header__travel__built">
+                        Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+                    </span>
+                    <div class="header__button__conteiner">
+                        <button class="header__travel__button" type="button">
+                            Find out more
+                        </button>
+                        <a href="https://www.youtube.com/watch?v=Xj4E0Zry6K4" class="header__travel__playbtn tube">
+                            <span class="play">▶</span>  
+                        </a>
+                        <span class="play__demo">Play demo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__travel__image">
+                <div class="header__travel__airplane">
+                    <img src="img/header_airplane.svg" alt="Airplane">
+                </div>
+                <div class="header__travel__girl">
+                    <img src="img/header_travel_girl.svg" alt="Girl">
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="content">
+            <div class="content__categoy">
+                <span class="content__category__present1">
+                    CATEGORY
+                </span>
+                <span class="content__category__present2">
+                    We Offer Best Services
+                </span>
+            </div>
+            <div class="content__bcg__image">
+                <img src="img/category_plus_image.svg" alt="Plus">
+            </div>
+            <div class="content__card__container" data-aos="flip-up">
+                <div class="card__category">
+                    <div class="card__image">
+                        <img src="img/category_calc_weather.svg" alt="Weather">
+                    </div>
+                    <span class="card__text1">
+                        Calculated Weather 
+                    </span>
+                    <span class="card__text2">
+                        Built Wicket longer admire do barton vanity itself do in it.
+                    </span>
+                </div>
+                <div class="card__category">
+                    <div class="card__image__flight">
+                        <img src="img/category_best_flight.svg" alt="flight">
+                    </div>
+                    <span class="card__text1">
+                        Best Flights 
+                    </span>
+                    <span class="card__text2">
+                        Engrossed listening. 
+                        Park gate sell they west hard for the.
+                    </span>
+                </div>
+                <div class="card__category">
+                    <div class="card__image">
+                        <img src="img/category_local_events.svg" alt="local_events">
+                    </div>
+                    <span class="card__text1">
+                        Local Events 
+                    </span>
+                    <span class="card__text2">
+                        Barton vanity itself do in it. 
+                        Preferd to men it engrossed listening. 
+                    </span>
+                </div>
+                <div class="card__category">
+                    <div class="card__image">
+                        <img src="img/category_custom.svg" alt="custom">
+                    </div>
+                    <span class="card__text1">
+                        Customization 
+                    </span>
+                    <span class="card__text2">
+                        We deliver outsourced
+                        aviation services for
+                        military customers
+                    </span>
+                </div>
+            </div>
+            <div class="topselling">
+                <div class="topselling__title">
+                    <span>Top Selling</span>
+                </div>
+                <div class="topselling__destination">
+                    <span>Top Destinations</span>
+                </div>
+            </div>
+            <div class="destination__card__wrapper" data-aos="fade-up"
+                                                    data-aos-anchor-placement="center-bottom"
+                                                    data-aos-easing="linear"
+                                                    data-aos-duration="500">
+                <div class="destination__card__item">
+                    <div class="destination__card__image">
+                        <img src="img/destination_image_1.png" alt="Italy">
+                    </div>
+                    <div class="destination__card__footer">
+                        <div class="card__text">
+                            <span>Rome, Italty</span>
+                            <span>$5,42k</span>
+                        </div>
+                        <div class="nav__point">
+                            <img src="img/destination_decor_navigation_ico.svg" alt="arrow">
+                            <span>10 Days Trip</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination__card__item">
+                    <div class="destination__card__image">
+                        <img src="img/destination_image_2.jpg" alt="London">
+                    </div>
+                    <div class="destination__card__footer">
+                        <div class="card__text">
+                            <span>London, UK</span>
+                            <span>$4.2k</span>
+                        </div>
+                        <div class="nav__point">
+                            <img src="img/destination_decor_navigation_ico.svg" alt="arrow">
+                            <span>12 Days Trip</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination__card__item">
+                    <div class="destination__card__image">
+                        <img src="img/destination_image_3.jpg" alt="London">
+                    </div>
+                    <div class="destination__card__footer">
+                        <div class="card__text">
+                            <span>Full Europe</span>
+                            <span>$15k</span>
+                        </div>
+                        <div class="nav__point">
+                            <img src="img/destination_decor_navigation_ico.svg" alt="arrow">
+                            <span>28 Days Trip</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="booking__container">
+                <div class="booking__wrapper__left">
+                    <div class="booking__title" data-aos="flip-up"
+                                                data-aos-offset="50"
+                                                data-aos-duration="1000">
+                        <span>Easy and Fast</span>
+                        <span>Book your next trip 
+                            in 3 easy steps
+                        </span>
+                    </div>
+                    <div class="booking__list">
+                        <div class="booking__list__item">
+                            <img src="img/booking__icon_1.svg" alt="Booking" data-aos="flip-up"
+                                                            data-aos-anchor-placement="center-bottom"
+                                                            data-aos-offset="50"
+                                                            data-aos-duration="1000">
+                            <div class="booking__list__text">
+                                <span>Choose Destination</span>
+                                <span>Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Urna, tortor tempus. 
+                                </span>
+                            </div>
+                        </div>
+                        <div class="booking__list__item">
+                            <img src="img/booking__icon_2.svg" alt="Booking" data-aos="flip-up"
+                                                                data-aos-anchor-placement="center-bottom"
+                                                                data-aos-offset="100"
+                                                                data-aos-duration="1200">
+                            <div class="booking__list__text">
+                                <span>Make Payment</span>
+                                <span>Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Urna, tortor tempus. 
+                                </span>
+                            </div>
+                        </div>
+                        <div class="booking__list__item">
+                            <img src="img/booking__icon_3.svg" alt="Booking" data-aos="flip-up"
+                                                        data-aos-anchor-placement="center-bottom"
+                                                        data-aos-offset="150"
+                                                        data-aos-duration="1500">
+                            <div class="booking__list__text">
+                                <span>Reach Airport on Selected Date</span>
+                                <span>Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Urna, tortor tempus. 
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BOOKING -->
+                <div class="booking__card__container">
+                    <div class="booking__big__card" data-aos="fade-up"
+                                                    data-aos-offset="50"
+                                                    data-aos-duration="1000">
+                        <div class="booking__card__image">
+                            <img src="img/booking_card_image.svg" alt="card">
+                        </div>
+                        <div class="booking__card__trip">
+                            <span>Trip To Greece</span>
+                            <span>14-29 June| by Robbin joseph</span>
+                        </div>
+                        <div class="booking__card__wrapper">
+                            <div class="booking__card__border">
+                                <div class="booking__card__icon">
+                                    <img src="img/booking_card_leaf_ico.svg" alt="leaf">
+                                </div>
+                            </div>
+                            <div class="booking__card__border">
+                                <div class="booking__card__icon">
+                                    <img src="img/booking_card_map_ico.svg" alt="map">
+                                </div>
+                            </div>
+                            <div class="booking__card__border">
+                                <div class="booking__card__icon">
+                                    <img src="img/booking_card_send_ico.svg" alt="send">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card footer -->
+                        <div class="booking__card__footer">
+                            <div class="booking__card__score__build">
+                                <img src="img/booking_card_image_build.svg" alt="build">
+                            </div>
+                            <div class="booking__card__score__text">
+                                <span>24 people going</span>
+                            </div>
+                            <div class="booking__card__heart">
+                                <img src="img/booking_card_image_heart.svg" alt="heart">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Midle card -->
+                    <div class="booking__midle__card" data-aos="fade-right"
+                    data-aos-offset="50"
+                    data-aos-duration="1000">
+                        <div class="midle__card__wrapper">
+                            <div class="midle__card__image">
+                                <img src="img/booking_card_image_mini.svg" alt="ava">
+                            </div>
+                            <div class="midle__card__text">
+                                <span>Ongoing</span>
+                                <span>Trip to rome</span>
+                                <span class="text__color__change__black">
+                                    <span class="text__color__change__purple">40%</span>completed
+                                </span>
+                                <img src="img/booking_card_image_line.svg" alt="line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TESTIMONIALS -->
+            <div class="testimonials__container">
+                <div class="testimonials__wrapper">
+                    <div class="testimonials__aboutus" data-aos="fade-right"
+                                                        data-aos-offset="50"
+                                                        data-aos-duration="1000">
+                        <span>Testimonials</span>
+                        <span>What people say
+                            about Us.
+                        </span>
+                    </div>
+                    <div class="testimonials__slider">
+                        <div class="testimonials__wrapper">
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="persona__wrapper">
+                                        <div class="slider_persona">
+                                            <img src="img/testimonials_avatar_2.jpg" alt="avatar">
+                                        </div>
+                                        <div class="persona__props">
+                                            <span>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</span>
+                                            <span>Mike taylor</span>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide">
+                                        <div class="persona__wrapper">
+                                            <div class="slider_persona">
+                                                <img src="img/testimonials_avatar_1.jpg" alt="avatar">
+                                            </div>
+                                            <div class="persona__props">
+                                                <span>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</span>
+                                                <span>Chris Thomas</span>
+                                                <span>CEO of Red Button</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide">
+                                        <div class="persona__wrapper">
+                                            <div class="slider_persona">
+                                                <img src="img/testimonials_avatar_3.jpg" alt="avatar">
+                                            </div>
+                                            <div class="persona__props">
+                                                <span>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</span>
+                                                <span>Kamil Fernando</span>
+                                                <span>Lahore, Pakistan</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="barnd__logo__container">
+                <div class="brand__logo__wrapper">
+                    <div class="brand__logo__image">
+                        <div class="brand__logo__button">
+                            <img src="img/brand_image_1.svg" alt="Axon">
+                        </div>
+                    </div>
+                    <div class="brand__logo__image">
+                        <div class="brand__logo__button">
+                            <img src="img/brand_image_2.svg" alt="Jestar">
+                        </div>
+                    </div>
+                    <div class="brand__logo__image">
+                        <div class="brand__logo__button">
+                            <img src="img/brand_image_3.svg" alt="Expedia">
+                        </div>
+                    </div>
+                    <div class="brand__logo__image">
+                        <div class="brand__logo__button">
+                            <img src="img/brand_image_4.svg" alt="Quantas">
+                        </div>
+                    </div>
+                    <div class="brand__logo__image">
+                        <div class="brand__logo__button">
+                            <img src="img/brand_image_5.svg" alt="Alitalia">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe__container">
+                <div class="subscribe__wrapper">
+                    
+                    <div class="subscribe__bcg">
+                        <div class="subscribe__title">
+                            <span>
+                                Subscribe to get information, latest news and other
+                                interesting offers about Jadoo
+                            </span>
+                        </div>
+                        <form class="subscribe__emeil__item" data-aos="flip-up""
+                                                             data-aos-offset="50"
+                                                             data-aos-duration="1000">
+                            <input type="email" class="subscribe__mail_input" placeholder="Your email">
+                            <input type="submit" value="Subscribe" class="subscribe__button">
+                            <!-- <button type="button" >Subscribe</button> -->
+                            
+                        </form>
+                    </div>
+                    <div class="subscribe__send__image">
+                        <img src="img/subscribe_send_image.svg" alt="send">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <span><a href="index.html">Jaboo.</a></span>
+                    <span>
+                        Book your trip in minute, get full
+                        Control for much longer.
+                    </span>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer_menu__company">
+                        <ul>
+                            <li class="menu__company__title"><a href="#">Company</a></li>
+                            <li class="menu__company"><a href="#">About</a></li>
+                            <li class="menu__company"><a href="#">Careers</a></li>
+                            <li class="menu__company"><a href="#">Mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_menu__company">
+                        <ul>
+                            <li class="menu__company__title"><a href="#">Contact</a></li>
+                            <li class="menu__company"><a href="#">Help/FAQ</a></li>
+                            <li class="menu__company"><a href="#">Press</a></li>
+                            <li class="menu__company"><a href="#">Affilates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_menu__company">
+                        <ul>
+                            <li class="menu__company__title"><a href="#">More</a></li>
+                            <li class="menu__company"><a href="#">Airlinefees</a></li>
+                            <li class="menu__company"><a href="#">Airline</a></li>
+                            <li class="menu__company"><a href="#">Low fare tips</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__social__conteiner">
+                    <div class="wrapper_soc">
+                        <a href="#" class="icon facebook">
+                            <div class="tooltip">Facebook</div>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                        <a href="#" class="icon instagram">
+                            <div class="tooltip">Instagram</div>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </a>
+                        <a href="#" class="icon twitter">
+                            <div class="tooltip">Twitter</div>
+                            <span><i class="fab fa-twitter"></i></span>
+                        </a>
+                    </div>
+                    <!-- APP -->
+                    <div class="footer__app">
+                        <div class="footer__app__text">
+                            <span>Discover our app</span>
+                        </div>
+                        <div class="footer__app__soc">
+                            <div class="footer__app__google">
+                                <a href="#"><img src="img/footer_social_google.png" alt=""></a>
+                            </div>
+                            <div class="footer__app__apple">
+                                <a href="#"><img src="img/footer_social_apple.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <span>All rights reserved@jadoo.co</span>
+                <span><a href="https://github.com/Moonamee?tab=repositories" target="_blank">by Maksym Ivashchenko</a></span>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/videotube.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
