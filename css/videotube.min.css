@@ -1,0 +1,62 @@
+.videotube-modal-overlay {
+    color:#ffffff;
+    display: none;
+    z-index: 995;
+    opacity: 0;
+    top: 60px;
+    left: 270px;
+    right: 0;
+    bottom: 0;
+    width: 1400px;
+    height: 840px;
+    position: fixed;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(26, 26, 26, 0.658);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 10px 1px rgb(0 0 0 / 30%);
+}
+#videotube-modal-container {
+    z-index:998;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#videotube-modal {
+    text-align:center;
+    box-shadow: 0px 5px 10px 1px rgb(0 0 0 / 30%);
+}
+#videotube-modal-loading {
+    position:fixed;
+    z-index:997;
+    font-size:1.5em;
+    top:49%;
+    width:5%;
+    text-align:center;
+    left:45%;
+}
+#videotube-modal-close {
+    position:fixed;
+    right: 8px;
+    top:60px;
+    padding:3px 13px;
+    z-index:999;
+    font-size:25px;
+    border-radius:3px;
+    cursor:pointer;
+    -webkit-transition-duration:.1s;
+    -o-transition-duration:.1s;
+    -moz-transition-duration:.1s;
+    transition-duration:.1s;
+}
+
+#videotube-modal-close:hover {
+    color: #fff;
+    background:#000000;
+    border-radius: 5px;
+}
